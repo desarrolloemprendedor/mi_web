@@ -3,24 +3,53 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi primera web</title>
+  <title>Mi Primera Web</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #fff;
+      background: linear-gradient(to right, #4facfe, #00f2fe);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
       text-align: center;
-      padding: 50px;
-      background-color: #f4f4f4;
+    }
+    header {
+      padding: 40px 20px;
     }
     h1 {
-      color: #333;
+      font-size: 3em;
+      margin-bottom: 10px;
     }
     p {
-      color: #666;
+      font-size: 1.2em;
+      max-width: 600px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+    footer {
+      position: absolute;
+      bottom: 10px;
+      font-size: 0.9em;
+      color: #ddd;
     }
   </style>
 </head>
 <body>
-  <h1>Bienvenido a mi página</h1>
-  <p>Esta es mi primera web hecha desde cero 🎉</p>
+  <header>
+    <h1>Bienvenido a Mi Página</h1>
+    <p>
+      Esta es mi primera web hecha desde cero 🎉.<br>
+      Quiero aprender paso a paso y mejorarla con el tiempo.<br>
+      Muy pronto vas a ver un menú, más secciones y muchas novedades.
+    </p>
+  </header>
+
+  <footer>
+    © 2025 - Mi Primera Web
+  </footer>
 </body>
 </html>
